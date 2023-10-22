@@ -16,7 +16,7 @@ header h1{
     font-weight:bold;
     display: inline-block;
     position:relative;
-    bottom: 3px;
+    bottom: 2px;
 }
 nav{
     background-color: rgba(8, 126, 20, 0.95);
