@@ -1,12 +1,12 @@
 let mostrador = document.getElementById("mostrador");
 let seleccion = document.getElementById("seleccion");
 let imgSeleccionada = document.getElementById("img");
-let productoSeleccionado = document.getElementById("producto");
+let modeloSeleccionado = document.getElementById("modelo");
 let descripSeleccionada = document.getElementById("descripcion");
 let precioSeleccionado = document.getElementById("precio");
 
 //Función que carga la información del item seleccionado//
-function carga(item){
+function cargar(item){
     quitarBordes();
     mostrador.style.width = "60%";
     seleccion.style.width = "40%"; 
@@ -15,9 +15,9 @@ function carga(item){
 
     imgSeleccionada.src = item.getElementsByTagName("img")[0].src;
     
-    productoSeleccionado.innerHTML = item.getElementsByTagName("p")[0].innerHTML;
+    modeloSeleccionado.innerHTML = item.getElementsByTagName("p")[0].innerHTML;
 
-    descripSeleccionada.innerHTML = "Descripción del producto";
+    descripSeleccionada.innerHTML = "Descripción del modelo";
 
     precioSeleccionado.innerHTML = item.getElementsByTagName("span")[0].innerHTML;
 }

@@ -1,0 +1,1 @@
+Hola, mi nombre es Yanet Peca este es el proyecto final de mi primera pagina, se trata se ventas de productos y accesorios para conejos, donde voy aplicando los conocimientos vasicos de HTML, CSS y JavaScript, que aprendí a lo largo del curso de BAM2.0.
